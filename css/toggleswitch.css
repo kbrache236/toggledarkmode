@@ -1,4 +1,12 @@
 /* darkmode class settings */
+.darkmode {
+    --clr-primary: #202302;
+    --clr-secondary: #00100d;
+    --clr-accent: #ff7750;
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+}
 
 /* button to toggle between light and dark mode */
 .dark-mode-toggle {
